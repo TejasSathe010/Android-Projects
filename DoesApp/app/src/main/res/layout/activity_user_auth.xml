@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAuth"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:background="@drawable/bgitemdoes">
+
+        <TextView
+            android:id="@+id/addAuth"
+            android:textSize="28sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Authentication Is Important"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/addTitle"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Username"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:inputType="text"
+            android:hint="Enter Username..  i.e abc17@"
+            android:paddingLeft="8dp"
+            android:textColorHint="#B5B5B5"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bginputtask"/>
+
+        <Button
+            android:id="@+id/access"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="Access"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:background="@drawable/bgbtncreate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
